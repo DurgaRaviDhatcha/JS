@@ -200,21 +200,21 @@
 
 // map() and reduce() method
 
-// let values = [75,52,67,88,92,24]
+let values = [75,52,67,88,92,24]
 
-// let total = values.filter(result => result%2===0)
-//     .map(result => result*2)
-//     .reduce((a,b) => (a+b))
+let total = values.filter(result => result%2===0)
+    .map(result => result*2)
+    .reduce((a,b) => (a+b))
 
-// console.log(total);
+console.log(total);
 
 
-// let nums = [1,2,3,4]
-// nums.push(7)
-//console.log(nums.push(7));
-//console.log(nums.indexOf(8))
-// console.log(nums);
-// console.log(nums[1]);
+let nums = [1,2,3,4]
+nums.push(7)
+console.log(nums.push(7));
+console.log(nums.indexOf(8))
+console.log(nums);
+console.log(nums[1]);
 
 let nums = [1,2,3,4]
 nums.push(7)
